@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+.header {
+    background-color: #003366;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+
+/* Main Section */
+.main {
+    background-color: white;
+    margin: 80px auto;
+    padding: 20px 20px;
+    min-height: 100vh;
+    border-radius: 8px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main h2 {
+    text-align: center;
+    color: #010509ad;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 300px;
+    background-color: #1aa9d8;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+a {
+    color: #004d99;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+    
+    
+    </style>
+      
+
+      
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <img src="BOI.png" alt="BOI Bank Logo">
+        <h1>BOI Bank</h1>
+    </div>
+
+    
+    <div>
+     <div class="main">
+        <form action="Login" method="post">
+            <h2>LOGIN</h2>
+            <label for="accountNo">Account Number:</label>
+            <input type="text" id="accountNo" name="accountNo" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Login">
+               
+        </form>
+        
+        <form>
+            <p>Don't have an account?<a href="Createaccount.html">signup</a></p>
+        </form>
+        
+    </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 HDFC Bank. All rights reserved.</p>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+.header {
+    background-color: #003366;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Navigation Bar */
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0066cc;
+    padding: 10px 0;
+}
+
+.nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #004080;
+}
+
+/* Main Section Styling */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    padding: 20px;
+}
+
+/* Form Styling */
+form {
+    background: rgba(255, 255, 255, 0.0);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+form h1 {
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+
+form input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+form input[type="submit"] {
+    background-color:  #40accd;
+    width: calc(100% - 22px);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #50acde;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+    
+    
+    </style>
+      
+</head>
+<body>
+      
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <img src="BOI.png" alt="BOI Bank Logo">
+        <h1>BOI Bank</h1>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="nav">
+        <a href="Createaccount.html">Create Account</a>
+        <a href="Depositmoney.html">Deposit Money</a>
+        <a href="Withdrawmoney.html">Withdraw Money</a>
+        <a href="Transfermoney.html">Transfer Money</a>
+        <a href="transactiondetails.html">Transaction Details</a>
+        <a href="aboutus.html">About Us</a>
+    </div>
+    <div>
+     <div class="main">
+        
+        <form action="Transactiondetails" name="form" >
+            <h1>Transaction Details</h1>
+            <label>Accountno</label>
+            <input type="text" name="accountno" required>
+            <br>
+            <input type="submit" value="submit">
+            
+        </form>
+    </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 HDFC Bank. All rights reserved.</p>
+    </div>
+   
+</body>
+</html>

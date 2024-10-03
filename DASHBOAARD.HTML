@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+   
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #003366;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between image and text */
+    padding: 20px;
+}
+
+.header img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+/* Navigation Bar */
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0066cc;
+    padding: 10px 0;
+}
+
+.nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #004080;
+}
+
+/* Main Section */
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.section {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.section h2 {
+    color: #003366;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+}   
+</style>
+</head>
+<body>
+ 
+<!-- Header Section -->
+    <div class="header">
+        <img src="BOI.png" alt="HDFC Bank Logo">
+        <h1>BOI Bank</h1>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="nav">
+        <a href="Createaccount.html">Create Account</a>
+        <a href="Depositmoney.html">Deposit Money</a>
+        <a href="Withdrawmoney.html">Withdraw Money</a>
+        <a href="Transfermoney.html">Transfer Money</a>
+        <a href="transactiondetails.html">Transaction Details</a>
+        <a href="aboutus.html">About Us</a>
+    </div>
+
+    <!-- Main Section with 3 Subsections -->
+    <div class="container">
+        <div class="main">
+            <!-- Gold Loan Section -->
+            <div class="section">
+                <h2>Gold Loan</h2>
+                <img src="BOIGOLDLOAN.jpg" alt="image notfound">
+                <br>
+                <br>
+                <p>Get the best rates on gold loans with BOI Bank. Quick processing, minimal documentation.</p>
+            </div>
+
+            <!-- Interest Rates Section -->
+            <div class="section">
+                <h2>Interest Rates</h2>
+                <br>
+                <br>
+                <img src="BOIINTEREST.jpg" alt="image notfound" >
+                <br>
+                <br>
+                <br>
+                <p>Check out our competitive interest rates for savings accounts, loans, and fixed deposits.</p>
+            </div>
+
+            <!-- Services Section -->
+            <div class="section">
+                <h2>Services</h2>
+                <img src="BOISERVICE.webp" alt="image notfound">
+                <p>Explore our wide range of banking services, including online banking, mobile banking, and more.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 BOI Bank. All rights reserved.</p>
+    </div>
+
+</body>
+</body>
+</html>
